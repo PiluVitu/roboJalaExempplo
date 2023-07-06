@@ -24,6 +24,13 @@ class Part:
             "{}_attack".format(formatted_name): self.attack_level,
             "{}_defense".format(formatted_name): self.defense_level,
             "{}_energy_consump".format(formatted_name): self.energy_consumption,
+
+
+
+
+
+
+
         }
 
     def reduce_edefense(self, attack_level):
