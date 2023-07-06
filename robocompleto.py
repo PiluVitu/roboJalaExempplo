@@ -21,16 +21,7 @@ class Part:
         return {
             "{}_name".format(formatted_name): self.name.upper(),
             "{}_status".format(formatted_name): self.is_available(),
-            "{}_attack".format(formatted_name): self.attack_level,
-            "{}_defense".format(formatted_name): self.defense_level,
-            "{}_energy_consump".format(formatted_name): self.energy_consumption,
-
-
-
-
-
-
-
+            "{}_attack
         }
 
     def reduce_edefense(self, attack_level):
